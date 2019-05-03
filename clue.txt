@@ -1,0 +1,6 @@
+Clue Tambahan
+1) Yang bisa ngasih role hanyalah Owner, Assistant ama Guardian
+2) Owner dan Assistant tidak mengurusi masalah pemberian Role Member jadi percuma ngemis-ngemis minta Role Member ke mereka
+3) Jika kalian dah tau caranya, maka akan mudah bagi kalian untuk ambil dan lepas role Member semau kalian tanpa harus bilang ke Owner dan Assistant
+4) Carilah di antara channel yang bisa kalian akses seperti #pengumuman #ambil-role #peraturan dan #gateway
+5) Kalo dah jadi member, silakan memperkenalkan diri di #introduction dan chat bebas di #☕-cafe-chat-☕
