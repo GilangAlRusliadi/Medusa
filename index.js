@@ -1,14 +1,14 @@
 const {Client, Attachment} = require('discord.js');
 const bot = new Client();
 
-const token = 'NTczNTg3NzE3Nzk1ODcyNzg4.XMtDXg.CcexlpoTfZRv4l0isQv8ljhOa1A';
+const token = 'NTc0MTYxNzI4NjkxMjQwOTgw.XM1Yfw.qxb1clUMTtKkC9JUyXstU-1fh2U';
 
 const PREFIX = ',';
 
 var version = '1.0.0';
 
 bot.on('ready', () =>{
-    console.log('Bot Medusa sudah Online');
+    console.log('Bot Messelia sudah Online');
     bot.user.setActivity('Kyonyuu Fantasy 3 if', {type: 'PLAYING'}).catch(console.error);
 })
 
@@ -65,19 +65,6 @@ bot.on('message', message=>{
             if(!args[1]) return message.reply('Error please define second args')
                 message.channel.bulkDelete(args[1]);
             break;
-        /*case 'kick':
-            if(!args[1]) message.channel.send('Kamu belom mecantumkan nama orangnya')
-            const user = message.mentions.users.first();
-            if(user){
-                const member = member.guild.member(user);
-                if(member){
-                    member.kick('').then(()=>{
-                        message.reply('Sukses kick ${user.tag}');
-                    })
-                } else {
-                    message.reply('User itu udah gak ada di server');
-                }
-            }*/
     }
 })
 
